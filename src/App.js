@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { Header, Info, Question } from './components';
+import { MemeGeneratorPage } from './pages';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchMemes } from './redux/actions/memes';
+import { BrowserRouter, Route } from 'react-router-dom';
+import './App.scss';
 
 function App() {
+
+  const memes = useSelector(({ memes }) => memes.items);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchMemes());
+
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header>Memes Generator</Header>
+      <div className='container'>
+        <Route exact path='/' render={() => <MemeGeneratorPage memes={memes} />} />
+        <Route path='/info' render={() => <Info />} />
+        <Route path='/question' render={() => <Question />} />
+      </div>
+    </BrowserRouter>
   );
 }
 
