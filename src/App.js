@@ -20,9 +20,9 @@ function App() {
     <BrowserRouter>
       <Header>Memes Generator</Header>
       <div className='container'>
-        <Route exact path='/meme-generator' render={() => <MemeGeneratorPage memes={memes} />} />
-        <Route path='meme-generator/info' render={() => <Info />} />
-        <Route path='meme-generator/question' render={() => <Question />} />
+        <Route exact path='/' render={() => <MemeGeneratorPage memes={memes} />} />
+        <Route path='/info' render={() => <Info />} />
+        <Route path='/question' render={() => <Question />} />
       </div>
     </BrowserRouter>
   );
