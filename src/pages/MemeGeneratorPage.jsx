@@ -26,8 +26,8 @@ function MemeGeneratorPage({ memes }) {
         <Fragment>
             <div className='wrap-generator'>
                 <form onSubmit={onSubmit} className='meme-form'>
-                    <input onChange={handleBottomChange} type="text" placeholder="Top Text" />
-                    <input onChange={handleTopChange} type="text" placeholder="Bottom Text" />
+                    <input onChange={handleTopChange} type="text" placeholder="Top Text" />
+                    <input onChange={handleBottomChange} type="text" placeholder="Bottom Text" />
                     <Button outline className='meme-btn'>Generate</Button>
                 </form>
 
