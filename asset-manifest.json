@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/meme-generator/static/css/main.b8576fec.chunk.css",
-    "main.js": "/meme-generator/static/js/main.920d0f3e.chunk.js",
-    "main.js.map": "/meme-generator/static/js/main.920d0f3e.chunk.js.map",
+    "main.css": "/meme-generator/static/css/main.705ba170.chunk.css",
+    "main.js": "/meme-generator/static/js/main.e3cfb9ee.chunk.js",
+    "main.js.map": "/meme-generator/static/js/main.e3cfb9ee.chunk.js.map",
     "runtime-main.js": "/meme-generator/static/js/runtime-main.66d5941a.js",
     "runtime-main.js.map": "/meme-generator/static/js/runtime-main.66d5941a.js.map",
     "static/js/2.aee0332b.chunk.js": "/meme-generator/static/js/2.aee0332b.chunk.js",
     "static/js/2.aee0332b.chunk.js.map": "/meme-generator/static/js/2.aee0332b.chunk.js.map",
     "index.html": "/meme-generator/index.html",
-    "precache-manifest.1b8cac8e7ccf5b7c6e0ce8c45dd0baa3.js": "/meme-generator/precache-manifest.1b8cac8e7ccf5b7c6e0ce8c45dd0baa3.js",
+    "precache-manifest.3ede4a3e90322face30cc47971363085.js": "/meme-generator/precache-manifest.3ede4a3e90322face30cc47971363085.js",
     "service-worker.js": "/meme-generator/service-worker.js",
-    "static/css/main.b8576fec.chunk.css.map": "/meme-generator/static/css/main.b8576fec.chunk.css.map",
+    "static/css/main.705ba170.chunk.css.map": "/meme-generator/static/css/main.705ba170.chunk.css.map",
     "static/js/2.aee0332b.chunk.js.LICENSE.txt": "/meme-generator/static/js/2.aee0332b.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/meme-generator/static/media/logo.24f86ea5.png",
     "static/media/question.svg": "/meme-generator/static/media/question.700b5e46.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.66d5941a.js",
     "static/js/2.aee0332b.chunk.js",
-    "static/css/main.b8576fec.chunk.css",
-    "static/js/main.920d0f3e.chunk.js"
+    "static/css/main.705ba170.chunk.css",
+    "static/js/main.e3cfb9ee.chunk.js"
   ]
 }
