@@ -34,8 +34,8 @@ function MemeGeneratorPage({ memes }) {
                 <div download className='meme'>
                     <img download src={randomImg} alt="meme" />
 
-                    <h2 className='top'>{bottomText}</h2>
-                    <h2 className='bottom'> {topText} </h2>
+                    <h2 className='top'>{topText}</h2>
+                    <h2 className='bottom'> {bottomText} </h2>
 
                 </div>
                 <a className='meme__download' href={randomImg} download>Скачать оригинал картинки</a>
